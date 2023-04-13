@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <title>4-oy </title>
+</head>
+
+<body>
+    <!-- header   -->
+
+    <header >
+
+       <div class="header-top">
+        <div class="container">
+
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="header-list__item">
+                        <a href="https://www.facebook.com/" target="_blank"  class="header-list__link">
+                            <img src="./img/facebook-icon.png" alt="facebook-icon">
+                        </a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="https://twitter.com/?lang=en" target="_blank"  class="header-list__link">
+                            <img src="./img/twitter-icon.png" alt="twitter-icon">
+                        </a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="https://www.youtube.com/" target="_blank"  class="header-list__link">
+                            <img src="./img/you-icon.png" alt="you-icon">
+                        </a>
+                    </li>
+                    <li class="header-list__item">
+                        <a href="https://www.instagram.com/" target="_blank"  class="header-list__link">
+                            <img src="./img/instagram-icon.png" alt="facebook-icon">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="header-tell">
+                    <ion-icon class="tell-icon" name="call-outline"></ion-icon>
+                    <a href="tel:(+123)4567890" class="header-tell__phone"> (+123)4567890</a>
+                </div>
+
+                <div class=" header-span_card">
+                    <span class="header-span">Setting</span>
+                    <span class="header-span">USD $</span>
+                    <span class="header-span"> <img src="../img/us-flag.jpg.png" alt="">English</span>
+                </div>
+
+                <div class="header-login">
+                    <button id="loginButton">Login</button>
+                </div>
+            </nav>
+        </div>
+       </div>
+
+       <div class="header-bottom">
+        <div class="container">
+
+            <nav class="header-bottom_nav">
+                <img src="./img/header-bottom-logo.png" alt="looki-logo">
+                <ul class="header-bottom_list">
+                    <li class="header-bottom_item">
+                        <a href="#" class="header-bottom_link">Home</a>
+                    </li>
+                    <li class="header-bottom_item">
+                        <a href="#" class="header-bottom_link">Shop</a>
+                    </li>
+                    <li class="header-bottom_item">
+                        <a href="#" class="header-bottom_link">Pages</a>
+                    </li>
+                    <li class="header-bottom_item">
+                        <a href="#" class="header-bottom_link">Blog</a>
+                    </li>
+                    <li class="header-bottom_item">
+                        <a href="#" class="header-bottom_link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="header-bottom_icon">
+                    <ion-icon id="search-outline" name="search-outline"></ion-icon>
+                    <ion-icon id="shuffle-outline" name="shuffle-outline"></ion-icon>
+                    <ion-icon id="heart-outline" name="heart-outline"></ion-icon>
+                    <button class="cardButton"><ion-icon id="bag-outline" name="bag-outline"></ion-icon>
+                    </button>
+                    <span class="saqlangan_cosmetika">
+                        0
+                    </span>
+
+                </div>
+                
+            </nav>
+        </div>
+
+       </div>
+    </header>
+
+    <!-- main -->
+
+    <section id="section1">
+        <div class="container">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/carusel-img.png" class="d-block w-100 " alt="...">
+                <div class="one-carusel">
+                  <h5 class="carusel-heading5">Face Makeup Brush</h5>
+                  <h4 class="carusel-heading4">Skincare Brush Set</h4>
+                  <h4 class="carusel-heading4"> Sale 30% Off</h4>
+                  <button class="carusel-btn">Shop now</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/section3-img1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/section5-img3.png" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                 
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="left_car carousel-control-prev-icon bg-warning  me-5 rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="right_car carousel-control-next-icon bg-warning ms-5 rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section2-card">
+                <div class="section2-card__box">
+                    <img src="./img/free-shopping.png" alt="free-shopping" class="section2-card__box--img1">
+                    <div>
+                        <h3 class="section2-card__box-heading">Free Shipping</h3>
+                    <p class="section2-card__box-text">On all orders over $75.00</p>
+                    </div>
+                </div>
+                <div class="section2-card__box">
+                    <img src="./img/free-returns.png" alt="free-shopping" class="section2-card__box--img2">
+                    <div>
+                        <h3 class="section2-card__box-heading">Free Returns</h3>
+                    <p class="section2-card__box-text">Returns are free within 9 days</p>
+                    </div>
+                </div>
+                <div class="section2-card__box">
+                    <img src="./img/payment.png" alt="free-shopping" class="section2-card__box--img3">
+                    <div>
+                        <h3 class="section2-card__box-heading">100% Payment Secure</h3>
+                    <p class="section2-card__box-text">Your payment are safe with us.</p>
+                    </div>
+                </div>
+                <div class="section2-card__box">
+                    <img src="./img/support.png" alt="free-shopping" class="section2-card__box--img4">
+                    <div>
+                        <h3 class="section2-card__box-heading">Support 24/7</h3>
+                    <p class="section2-card__box-text">Contact us 24 hours a day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="section3-card">
+                <img src="./img/section3-img1.png" alt="" class="section3-card__img1">
+                <img src="./img/section3-img2.png" alt=""  class="section3-card__img2">
+                <img src="./img/section3-img3.png" alt=""  class="section3-card__img3">
+
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section>
+           <div class="card-box">
+            <h2 class="section3-heading">Our products</h2>
+        </div>
+            <p class="section3-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, culpa?</p>
+           
+
+
+            <div class="section3-card__headings">
+                <h4 id="Newproducts" class="section3-card__headings-heading">New products</h4>
+                <h4 id="Onsale" class="section3-card__headings-heading">Onsale</h4>
+                <h4 id="UpcomingProducts" class="section3-card__headings-heading">Upcoming Products</h4>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="section4-card" id="elements">
+                <!-- <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section4-img1.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$11.90</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div> -->
+                <!-- <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section4-img2.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$11.90</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div>
+                <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section4-img3.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$21.51</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div>
+                <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section4-img4.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$11.90</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div> -->
+
+                
+            </div>
+            <ul id="page-list">
+                    <!-- <li>
+                        <button class="page-btn">1</button>
+                    </li>
+                   -->
+                    
+                </ul>
+        </section>
+
+        <section>
+            <div class="section5-card">
+                <img src="./img/section5-img1.png" alt="">
+                <img src="./img/section5-img2.png" alt="">
+                <img src="./img/section5-img3.png" alt="">
+
+            </div>
+        </section>
+
+        <section id="section6">
+        <div class="card-box1">
+            <h2 class="section3-heading1">New Arrival products</h2>
+        </div>
+            <p class="section3-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, repellat.</p>
+
+            <div class="section4-card">
+                <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section6-img1.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$11.90</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div>
+                <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section6-img2.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$11.90</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div>
+                <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section6-img3.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$21.51</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div>
+                <div class="section4-card__box">
+                    <p class="section4-card__box--position">New</p>
+                    <img src="./img/section6-img4.png" alt="" class="section4-card__box--img">
+                    <p class="section4-card__box--text">All Natural Makeup Beauty <br> Cosmetics</p>
+                   <div class="section4-card__box--math">
+                    <span class="section4-card__box--span">$11.90</span>
+                    <button id="MathBtn"><img src="./img/math.png" alt=""></button>
+                   </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <div class="card-box2">
+                <h2 class="section3-heading2">From our Latest Blogs</h2>
+            </div>
+            <p class="section3-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="section7-card">
+
+                <div class="section7-card__box">
+                    <img src="./img/section7-img1.png" alt="" class="section7-card__box--img">
+                    <p class="section7-card__box--text">Fashion</p>
+                    <h5 class="section7-card__box--heading">This is first Post For Blog</h5>
+                    <p class="section7-card__box--text2">
+                        Posted by <span class="section7-card__box--span">HasTech</span> 12TH Nov 2023
+                    </p>
+                </div>
+                <div class="section7-card__box">
+                    <img src="./img/section7-img2.png" alt="" class="section7-card__box--img">
+                    <p class="section7-card__box--text">Fashion</p>
+                    <h5 class="section7-card__box--heading">This is first Post For Blog</h5>
+                    <p class="section7-card__box--text2">
+                        Posted by <span class="section7-card__box--span">HasTech</span> 12TH Nov 2023
+                    </p>
+                </div>
+                <div class="section7-card__box">
+                    <img src="./img/section7-img3.png" alt="" class="section7-card__box--img">
+                    <p class="section7-card__box--text">Fashion</p>
+                    <h5 class="section7-card__box--heading">This is first Post For Blog</h5>
+                    <p class="section7-card__box--text2">
+                        Posted by <span class="section7-card__box--span">HasTech</span> 12TH Nov 2023
+                    </p>
+                </div>
+                <div class="section7-card__box">
+                    <img src="./img/section7-img4.png" alt="" class="section7-card__box--img">
+                    <p class="section7-card__box--text">Fashion</p>
+                    <h5 class="section7-card__box--heading">This is first Post For Blog</h5>
+                    <p class="section7-card__box--text2">
+                        Posted by <span class="section7-card__box--span">HasTech</span> 12TH Nov 2023
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section8-card">
+                <img src="./img/section8-img1.png" alt="">
+                <img src="./img/section8-img2.png" alt="">
+                <img src="./img/section8-img3.png" alt="">
+                <img src="./img/section8-img4.png" alt="">
+                <img src="./img/section8-img5.png" alt="">
+                <img src="./img/section8-img6.png" alt="">
+
+
+            </div>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-card">
+
+                <div class="footer-card-box">
+                    <img src="./img/footer-logo.png" alt="">
+                    <p class="footer-card-box__text">We are a team of professional designers and developers <br> that create high quality wordpress plugins, Html, React <br> Template.</p>
+                  <div class="footer-icon">
+                    <a href="https://www.instagram.com/" target="_blank"> <img src="./img/footer-instagram.png" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./img/footer-you.png" alt=""></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><img src="./img/footer-twitter.png" alt=""></a>
+                   <a href="https://www.facebook.com/" target="_blank"> <img src="./img/footer-facebook.png" alt=""></a>
+                  </div>
+
+                </div>
+
+                <div class="footer-card-box">
+                    <ul class="footer-list">
+                        <li class="footer-list__item1">
+
+                            <a href="#" class="footer-list__link">Information</a>
+
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">About us</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">Payment</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">Contact us</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">Stores</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card-box">
+                    <ul class="footer-list">
+                        <li class="footer-list__item1">
+
+                            <a href="#" class="footer-list__link">Social Links</a>
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">New products</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">Best sales</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">Login</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+
+                            <a href="#" class="footer-list__link1">My account</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-card-box">
+                    <ul class="footer-list">
+                        <li class="footer-list__item1">
+
+                            <a href="#" class="footer-list__link">Newsletter</a>
+                            
+                        </li>
+                        <li class="footer-list__item">
+                            <p class="footer-list__text">Subcribe to the TheFace mailing list to receive update on <br> mnew arrivals, special offers and other discount  <br> information.</p>
+                        </li>
+                        <li>
+                            <input class="inputemail" type="email" placeholder="Your email address">
+                            <button class="btnSign">Sign up</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-card">
+                   <div>
+                    <p class=" footer-bottom-card--text">
+                        Copyright © <span class="footer-bottom-card--span">HasThemes</span>. All Rights Reserved
+                    </p>
+                   </div>
+                   <div>
+                    <img src="./img/footer-bottom-img.png" alt="" class="footer-bottom-card--img">
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

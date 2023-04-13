@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/login-bg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.container {
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.login-card {
+    position: relative;
+    top: 250px;
+    left: 500px;
+    right: 500px;
+}
+
+.input-login {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.username {
+    width: 300px;
+    padding: 13px 0 12px 51px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#user-icon{
+    position: absolute;
+    font-size: 30px;
+    top: 8px;
+    left: 10px;
+   color: #FFFFFF;
+
+}
+
+.input-pass{
+   position: relative; 
+}
+
+.password {
+    width: 300px;
+    padding: 13px 0 12px 51px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.btnsumbit {
+    margin-top: 43px;
+    margin-bottom: 11px;
+
+}
+
+#loginBtn {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    width: 300px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0D75FF;
+    padding: 13px 123px 12px 123px;
+    border: none;
+}
+
+.login-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 185px;
+    margin-top: 11px;
+   
+}
+.login-logo{
+    width: 250px;
+    height: 80px;
+}

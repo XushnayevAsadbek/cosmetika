@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.heading{
+    margin-top: 30px;
+    padding-top: 30px; 
+}
+.error_border{
+    border: 2px solid red;
+}
+.btn_delet{
+    margin:  0 17px 10px 33px;
+}
+.btn_close{
+    margin-bottom: 10px;
+   
+}
+
+#showImageurl{
+    position: relative;
+    left: 290px;
+    top: 5px;
+    bottom: 10px;
+    width: 150px;
+    height: 130px;
+}
+
+.admin-card{
+    display: grid;
+    grid-template-columns:1fr 5fr;
+    grid-gap: 74px;
+    
+}
+.admin-card_left{
+    background: linear-gradient(175.93deg, #5F00D8 -10.23%, #B200F1 117.03%);
+    width: 300px;
+    position: relative;
+}
+
+.admin-card_btn{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    bottom: 20px;
+}
+.admin-card_left--logo{
+    margin: 63px 0  0 140px;
+}
+
+.admin-card_left--img{
+    margin: 42.3px 0 44px 100px;
+}
+
+.admin-icon{
+    margin-left: 25px;
+    font-size: 30px;
+    color: #C680CD;
+    width: 50px;
+}
+
+.admin-btn{
+    margin-left: 45px;
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+outline: transparent;
+background: linear-gradient(175.93deg, #5F00D8 -10.23%, #B200F1 117.03%);
+color: #FFFFFF;
+border: none;
+}
+
+#page-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.page-btn{
+    margin-right: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: dimgray;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.page-btn.active{
+    background-color:black;
+    color:#FFFFFF;
+}
