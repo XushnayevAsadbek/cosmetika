@@ -182,7 +182,7 @@ newproductArray = books.filter(item => {
 })
 let onsaleArray =[];
 onsaleArray = books.filter(item => {
-    return item.category == 'New';
+    return item.category == 'Onsale';
     
     
 })
@@ -190,7 +190,7 @@ let upcomingArray =[];
 
 upcomingArray = books.filter(item => {
     console.log(item);
-    return item.category == 'New';
+    return item.category == 'Upcoming';
     
 })
 
